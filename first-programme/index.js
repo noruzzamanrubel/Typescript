@@ -43,3 +43,13 @@ var ourTuple;
 // initialize correctly
 ourTuple = [5, false, 'Coding God was here'];
 console.log(ourTuple);
+//class
+var User = /** @class */ (function () {
+    function User(id, name) {
+        this.id = id;
+        this.name = name;
+    }
+    return User;
+}());
+var user = new User('number', "John Doe");
+console.log(user);
